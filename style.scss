@@ -232,8 +232,11 @@ p {
 }
 
 @media (max-width: 800px) {
+  .header {
+    padding: 1.65vh 1.65vw;
+  }
   .hero-heading {
-    font-size: 38px;
+    text-align: center;
   }
 
   p {
@@ -264,6 +267,12 @@ p {
     margin-bottom: 5vh;
   }
 
+  .bottom-section-container {
+    p {
+      text-align: left;
+    }
+  }
+
   .card-container {
     max-width: 35vw;
     margin-bottom: 3vh;
@@ -274,6 +283,9 @@ p {
   .card-container {
     max-width: 80vw;
     margin-bottom: 3vh;
+    p {
+      text-align: center;
+    }
   }
 
   p {
@@ -282,9 +294,5 @@ p {
 
   .bottom-section-container img {
     height: 45vh;
-  }
-
-  .hero-heading {
-    font-size: 30px;
   }
 }
