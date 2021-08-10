@@ -194,6 +194,9 @@ p {
   align-items: center;
   max-width: 15vw;
   margin: 0 1.2vw;
+  a {
+    transition: all 150ms ease-in;
+  }
   p {
     margin-top: 1vh;
     width: 80%;

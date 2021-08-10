@@ -261,6 +261,11 @@ p {
   margin: 0 1.2vw;
 }
 
+.card-container a {
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+}
+
 .card-container p {
   margin-top: 1vh;
   width: 80%;
