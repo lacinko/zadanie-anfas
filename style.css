@@ -47,16 +47,16 @@ p {
   font-weight: 600;
 }
 
-.menu-link {
+.navigation-link {
   color: black;
   font-weight: 700;
 }
 
-.menu-link:hover {
+.navigation-link:hover {
   color: darkgrey;
 }
 
-.menu-link:nth-child(2) {
+.navigation-link:nth-child(2) {
   margin-left: 1.1vw;
 }
 
